@@ -4,6 +4,6 @@ RUN mkdir /applications
 WORKDIR "/applications"
 
 RUN pip install --upgrade pip
-ADD src/p12.py /applications/
+ADD src/*.py /applications/
 
 # CMD ["python", "p12.py"]
